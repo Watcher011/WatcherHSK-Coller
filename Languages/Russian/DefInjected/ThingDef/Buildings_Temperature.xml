@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bio_Heater.label>Нагреватель из Сердца Феникса</Bio_Heater.label>
+  <Bio_Heater.description>Сердце Феникса, подключенное к системе жизнеобеспечения, требует частой замены гематогена из-за разницы в количестве питательных веществ в крови.</Bio_Heater.description>
+
+  <Bio_coller.label>Охладитель из Сердца Кирина</Bio_coller.label>
+  <Bio_coller.description>Сердце Кирина, подключенное к системе жизнеобеспечения, из-за разницы в количестве питательных веществ в крови требует частой замены гематогена.</Bio_coller.description>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bio_Heater.label>Aquecedor de coração Phoenix</Bio_Heater.label>
+  <Bio_Heater.description>O coração de Phoenix, em suporte vital, requer reposição frequente de hematogênio devido às diferenças na quantidade de nutrientes no sangue.</Bio_Heater.description>
+
+  <Bio_coller.label>Refrigerador de Coração de Kirin</Bio_coller.label>
+  <Bio_coller.description>O coração de Kirin, conectado a um sistema de suporte vital, necessita de reposição frequente do hematogênio devido à diferença na quantidade de nutrientes no sangue.</Bio_coller.description>
+
+
+</LanguageData>

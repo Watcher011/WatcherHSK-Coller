@@ -153,4 +153,82 @@
 	</ThingDef>
 
 
+<ThingDef ParentName="SK_BuildingBase">
+		<defName>Bio_Sun</defName>
+		<label>BIO-Sun</label>
+		<graphicData>
+			<texPath>Things/Building/Sun</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			 <drawOffset>(0,0,0.2)</drawOffset>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Sun</uiIconPath>	
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<fillPercent>0.6</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>310</MaxHitPoints>
+			<WorkToBuild>3500</WorkToBuild>
+			<Flammability>0</Flammability>
+			 <Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>The hybridization procedure made it possible to create a light source from the Hearts of Kirin and Phoenix. It is necessary to be connected to a life support system; due to the difference in the amount of nutrients in the blood, it requires frequent replacement of the hematogen.</description>
+		<size>(1,1)</size>
+		<costList>
+		     <Glass>20</Glass>
+			<LivingFrost>1</LivingFrost>
+			<LivingFire>1</LivingFire>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Glower">
+				 <overlightRadius>7.0</overlightRadius>
+                 <glowRadius>14</glowRadius>
+                 <glowColor>(370,370,370,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>FoodPoisoning</hediff>
+				<radius>5</radius>
+				<severityToAdd>0.0015</severityToAdd>
+			</li>
+			
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.6</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Temperature</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<researchPrerequisites>
+			<li>TheHybridization</li>
+		</researchPrerequisites>
+		 <specialDisplayRadius>7</specialDisplayRadius>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+
 </Defs>

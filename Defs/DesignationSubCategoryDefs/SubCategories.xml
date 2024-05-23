@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_heart</defName>
+		<label>heart</label>
+		<description>heart.</description>
+		<defNames>
+			<li>Bio_Heater</li>
+			<li>Bio_coller</li>
+			<li>Bio_Sun</li>
+		</defNames>
+		<designationCategory>Temperature</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+
+</Defs>
+
+
+

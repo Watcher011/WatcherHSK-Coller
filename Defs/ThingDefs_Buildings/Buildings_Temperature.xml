@@ -206,7 +206,12 @@
 				<radius>5</radius>
 				<severityToAdd>0.0005</severityToAdd>
 			</li>
-			
+			 <li Class="CompProperties_SpawnerFilth">
+        <filthDef>Filth_SpentAcid</filthDef>
+        <spawnCountOnSpawn>10</spawnCountOnSpawn>
+        <spawnMtbHours>4</spawnMtbHours>
+        <spawnRadius>5</spawnRadius>
+      </li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>0.6</fuelConsumptionRate>
 				<fuelCapacity>10.0</fuelCapacity>

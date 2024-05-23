@@ -204,7 +204,7 @@
 			<li Class="SK.CompProperties_ApplyHediffAround">
 				<hediff>FoodPoisoning</hediff>
 				<radius>5</radius>
-				<severityToAdd>0.0015</severityToAdd>
+				<severityToAdd>0.0005</severityToAdd>
 			</li>
 			
 			<li Class="CompProperties_Refuelable">

@@ -6,7 +6,7 @@
 	 
 
 
-   <ResearchProjectDef ParentName="PrimitiveBase">
+   <ResearchProjectDef>
 		<defName>TheHybridization</defName>
 		<label>TheHybridization</label>
 		<description>The hybridization procedure made it possible to create a light source from the Hearts of Kirin and Phoenix..</description>

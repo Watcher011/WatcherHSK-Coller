@@ -187,8 +187,7 @@
 		<size>(1,1)</size>
 		<costList>
 		     <Glass>20</Glass>
-			<LivingFrost>1</LivingFrost>
-			<LivingFire>1</LivingFire>
+			<LivingSun>1</LivingSun>
 			<Mechanism>8</Mechanism>
 		</costList>
 		<stuffCategories>
@@ -201,16 +200,11 @@
                  <glowRadius>14</glowRadius>
                  <glowColor>(370,370,370,0)</glowColor>
 			</li>
-			<li Class="SK.CompProperties_ApplyHediffAround">
-				<hediff>FoodPoisoning</hediff>
-				<radius>5</radius>
-				<severityToAdd>0.0005</severityToAdd>
-			</li>
 			 <li Class="CompProperties_SpawnerFilth">
         <filthDef>Filth_SpentAcid</filthDef>
-        <spawnCountOnSpawn>10</spawnCountOnSpawn>
-        <spawnMtbHours>4</spawnMtbHours>
-        <spawnRadius>5</spawnRadius>
+        <spawnCountOnSpawn>3</spawnCountOnSpawn>
+        <spawnMtbHours>40</spawnMtbHours>
+        <spawnRadius>3</spawnRadius>
       </li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>0.6</fuelConsumptionRate>

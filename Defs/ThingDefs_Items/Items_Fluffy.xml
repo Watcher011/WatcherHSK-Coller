@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef>
+		<defName>LivingSun</defName>
+		<label>Living Sun</label>
+		<description>Hybrid heart, a rare combination that sometimes happens in nature. With due diligence of a surgeon, it can be created in the laboratory.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			
+			<li Class="CompProperties_Forbiddable"/>
+
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(238,238,238,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		 <thingCategories>
+          <li>ItemsMisc</li>
+         </thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		 <thingSetMakerTags>
+       <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		 <allowedArchonexusCount>50</allowedArchonexusCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/SunFire</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>TheHybridization</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	
+
+</Defs>

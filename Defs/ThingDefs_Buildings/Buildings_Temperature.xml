@@ -196,7 +196,7 @@
 		<costStuffCount>220</costStuffCount>
 		<comps>
 			<li Class="CompProperties_Glower">
-				 <overlightRadius>7.0</overlightRadius>
+				 <overlightRadius>9.0</overlightRadius>
                  <glowRadius>14</glowRadius>
                  <glowColor>(370,370,370,0)</glowColor>
 			</li>

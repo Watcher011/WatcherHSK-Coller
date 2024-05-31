@@ -230,4 +230,93 @@
 	</ThingDef>
 
 
+
+
+<ThingDef ParentName="SK_BuildingBase">
+		<defName>Bio_PSY</defName>
+		<label>BIO-PSY</label>
+		<graphicData>
+			<texPath>Things/Building/PSY</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			 <drawOffset>(0,0,0.2)</drawOffset>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/PSY</uiIconPath>	
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<fillPercent>0.6</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>310</MaxHitPoints>
+			<WorkToBuild>3500</WorkToBuild>
+			<Flammability>0</Flammability>
+			 <Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>Behir's heart that creates psionic resonance.</description>
+		<size>(1,1)</size>
+		<costList>
+		     <Glass>20</Glass>
+			<PsyHeart>1</PsyHeart>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Glower">
+                 <glowRadius>4</glowRadius>
+                 <glowColor>(139,0,255,0)</glowColor>
+			</li>
+			<li Class="CompProperties_MoteEmitter">
+            <mote>Mote_PsychicEmanatorEffect</mote>
+             <emissionInterval>350</emissionInterval>
+            </li>
+			 <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Natural</li>
+		   <li>Artistic</li>
+		      <li>Morbid</li>
+        </focusTypes>
+      </li>
+			<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>PSY_Bright</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			</li>
+		 <li Class="CompProperties_ToggleDrawAffectedMeditationFoci" />
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.6</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Temperature</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<researchPrerequisites>
+			<li>TheHybridization</li>
+		</researchPrerequisites>
+		 <specialDisplayRadius>3</specialDisplayRadius>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
 </Defs>

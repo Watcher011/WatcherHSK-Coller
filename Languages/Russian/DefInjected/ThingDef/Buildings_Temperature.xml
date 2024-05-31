@@ -10,5 +10,8 @@
   <Bio_Sun.label>Лампа из Сердца Кирина/Феникса</Bio_Sun.label>
   <Bio_Sun.description>Процедура гибридизации позволила создать из Сердец Кирина и Феникса источник света. Необходимо  подключенное к системе жизнеобеспечения, из-за разницы в количестве питательных веществ в крови требует частой замены гематогена.</Bio_Sun.description>
 
+  <Bio_PSY.label>BIO-PSY</Bio_PSY.label>
+  <Bio_PSY.description>The hybridization procedure made it possible to create a light source from the Hearts of Kirin and Phoenix. It is necessary to be connected to a life support system; due to the difference in the amount of nutrients in the blood, it requires frequent replacement of the hematogen.</Bio_PSY.description>
+
 
 </LanguageData>

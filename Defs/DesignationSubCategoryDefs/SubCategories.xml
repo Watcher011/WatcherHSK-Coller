@@ -10,6 +10,7 @@
 			<li>Bio_Heater</li>
 			<li>Bio_coller</li>
 			<li>Bio_Sun</li>
+			<li>Bio_PSY</li>
 		</defNames>
 		<designationCategory>Temperature</designationCategory>
 		<debug>false</debug>

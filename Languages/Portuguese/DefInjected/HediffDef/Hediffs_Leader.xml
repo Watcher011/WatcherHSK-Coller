@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CombatParia.label>Аура Неприкасаемого</CombatParia.label>
+  <CombatParia.description>Аура что подавляеет пси силы окружающих</CombatParia.description>
+
+  <CombatPariaBuff.label>Аура Пари</CombatPariaBuff.label>
+  <CombatPariaBuff.description>Combat abilities are boosted thanks to being near someone who is using the combat command ability.</CombatPariaBuff.description>
+
+
+</LanguageData>
